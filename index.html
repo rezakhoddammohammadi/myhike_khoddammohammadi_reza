@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
-    <meta name="comp1800 template" content="My 1800 App">
+    <title>My HIKE ROUTE</title>    <meta name="comp1800 template" content="My 1800 App">
 
     <!------------------------>
     <!-- Required meta tags -->
@@ -36,7 +35,29 @@
     <!-------------------------------------------->
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link rel="stylesheet" href="./styles/style.css">
-
+    <title>Your Page Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        footer {
+            background-color: #ffd700;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,11 +70,33 @@
 
     <!-- the body of your page goes here -->
     <!-- stuff -->
-    <div class="container text-center">
-        <img class="d-block mx-auto mb-4 responsive" src="./images/elmo.jpg" alt="">
-        <h1>Welcome to Reza's Hiking App</h1>
-        <a href="login.html" class="btn btn-info" role="button">Log in</a>
-   </div>
+            <!-- demo 13 -->
+
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                    <h1>Welcome to Reza's Hiking </h1>
+                    <img src="images/elmo.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                        width="200" height="200" loading="lazy">
+                </div>
+            </div>
+            <h2 class="display-4 fw-bold">Bold Adventure Awaits</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Embark on your hiking journey with our cutting-edge Hiking App, 
+                    meticulously crafted to be your ultimate trail companion.
+                     Whether you're a seasoned trekker or a novice explorer,
+                     our app is your gateway to a seamless and enriched outdoor experience.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <a href="login.html" class="btn btn-info" role="button">Log in</a>                </div>
+            </div>
+            
+        </div>
+    
+
+        <!-- demo 13 -->
+
+
+
     <!-- our own footer goes here-->
     <nav id="footerPlaceholder"></nav>
 
@@ -68,6 +111,11 @@
         logout();       //make sure user is logged out
 </script>
 
+<!----newwwwwwwwwwwwwwwwwwwwwwwwwww backgroundddddddddd---->
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content"></div>
 </body>
 
 </html>
